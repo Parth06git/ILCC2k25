@@ -1,0 +1,99 @@
+.box {
+    background: rgba(78, 78, 78, 0.858);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align: left;
+    padding: 15px;
+    padding-left: 25px;
+    width: 60%
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 25px
+}
+
+.para {
+    text-align: justify;
+}
+
+.iitt {
+    padding: 15px;
+    background-color: #EEEEED !important;
+    color: black;
+    border-radius: 15px;
+}
+
+.readLink {
+    padding: 5px;
+    text-decoration: underline;
+    color: black;
+    border-radius: 2px;
+    transition: 0.4s;
+}
+
+.readLink:hover {
+    border: 1px solid gray;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+
+.dates {
+    border-radius: 10px;
+    scale: 0.9;
+}
+
+.dates:hover {
+    box-shadow: 0 0 20px 0 black;
+}
+
+.brMB {
+    display: none;
+}
+
+.themes {
+    background-color: #EEEEED;
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+    scale: 0.9;
+}
+
+.themes ul li {
+    list-style: none;
+}
+
+@media(max-width: 768px) {
+
+    .carousel-caption {
+        position: absolute;
+        bottom: -45px;
+        left: -120px;
+        scale: 0.4;
+        width: 150%;
+    }
+
+    .carousel-item img {
+        height: 350px !important;
+    }
+
+    .ilcc {
+        scale: 0.9;
+    }
+
+    .brMB {
+        display: block;
+    }
+
+    .brW {
+        display: none;
+    }
+
+    .thCol {
+        /* margin-left: 25px; */
+        padding-left: 35px;
+        margin-top: 5px;
+    }
+
+}

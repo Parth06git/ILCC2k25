@@ -1,0 +1,11 @@
+.footer {
+    width: 100.8%;
+    background-color: rgb(219, 219, 219);
+    color: Black !important;
+}
+
+@media(max-width: 768px) {
+    .footer {
+        width: 105%;
+    }
+}

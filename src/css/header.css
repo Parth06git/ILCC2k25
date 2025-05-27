@@ -1,0 +1,29 @@
+.navLinks:hover {
+    color: #08fdf0e7 !important;
+}
+
+.nav-link::after {
+    content: '';
+    width: 0%;
+    height: 1.5px;
+    background: rgb(84, 216, 72);
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.links {
+    margin-left: 350px;
+}
+
+@media(max-width: 768px) {
+
+    .links {
+        margin-left: 0px;
+    }
+
+}
