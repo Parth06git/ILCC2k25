@@ -37,57 +37,85 @@ const Footer = () => {
               </Link>
             </li>{" "}
             <li className="nav-item mb-2">
-              <Link to="/aboutUs" className="nav-link p-0 text-body-secondary">
-                About Us
+              <Link to="/about" className="nav-link p-0 text-body-secondary">
+                About ILCE
               </Link>
             </li>{" "}
             <li className="nav-item mb-2">
-              <Link to="/registration" className="nav-link p-0 text-body-secondary">
+              <Link
+                to="/registration"
+                className="nav-link p-0 text-body-secondary"
+              >
                 Registration
               </Link>
             </li>{" "}
             <li className="nav-item mb-2">
-              <Link to="/contactUs" className="nav-link p-0 text-body-secondary">
+              <Link
+                to="/contactUs"
+                className="nav-link p-0 text-body-secondary"
+              >
                 Contact Us
               </Link>
             </li>{" "}
             <li className="nav-item mb-2">
-              <Link to="/" className="nav-link p-0 text-body-secondary">
+              <Link
+                to="https://www.iittp.ac.in/"
+                target="_blank"
+                className="nav-link p-0 text-body-secondary"
+              >
                 IIT Tirupati
               </Link>
             </li>{" "}
             <li className="nav-item mb-2">
-              <Link to="/" className="nav-link p-0 text-body-secondary">
+              <Link
+                to="https://cee.iittp.ac.in/"
+                target="_blank"
+                className="nav-link p-0 text-body-secondary"
+              >
                 Civil and Environmental Engineering Department, IIT Tirupati
               </Link>
             </li>{" "}
           </ul>{" "}
         </div>{" "}
-        <div className="col mb-3">
-            {" "}
-        </div>
+        <div className="col mb-3"> </div>
         <div className="col mb-3">
           {" "}
           <h5>Social Links</h5>{" "}
           <ul className="nav flex-column">
             {" "}
             <li className="nav-item mb-2">
-              <Link to="/" className="nav-link p-0 text-body-secondary">
+              <Link
+                to="https://www.instagram.com/iittirupati/?hl=en"
+                target="_blank"
+                className="nav-link p-0 text-body-secondary"
+              >
                 <Instagram /> Instagram
               </Link>
             </li>{" "}
             <li className="nav-item mb-2">
-              <Link to="/" className="nav-link p-0 text-body-secondary">
+              <Link
+                to="https://www.youtube.com/c/IITTirupatiofficial"
+                target="_blank"
+                className="nav-link p-0 text-body-secondary"
+              >
                 <Youtube /> YouTube
               </Link>
             </li>{" "}
             <li className="nav-item mb-2">
-              <Link to="/" className="nav-link p-0 text-body-secondary">
+              <Link
+                to="https://www.facebook.com/iittp/"
+                target="_blank"
+                className="nav-link p-0 text-body-secondary"
+              >
                 <Facebook /> Facebook
               </Link>
             </li>{" "}
             <li className="nav-item mb-2">
-              <Link to="/" className="nav-link p-0 text-body-secondary">
+              <Link
+                to="https://www.linkedin.com/school/iittirupati/posts/?feedView=all"
+                target="_blank"
+                className="nav-link p-0 text-body-secondary"
+              >
                 <Linkedin /> LinkedIn
               </Link>
             </li>{" "}
