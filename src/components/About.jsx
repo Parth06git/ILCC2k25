@@ -1,8 +1,10 @@
 import React from "react";
+import Carousel from "./Carousel";
 
 const About = () => {
   return (
     <>
+      <Carousel img="bg2.jpg" />
       <div className="container" style={{ textAlign: "justify" }}>
         <h2 className="text-2xl font-bold text-center my-4">About ILCE</h2>
         <p className="text-lg text-gray-700 mb-4">

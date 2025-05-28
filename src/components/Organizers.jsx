@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Carousel from "./Carousel";
 
 const Organizers = () => {
   const [activeOrganizer, setActiveOrganizer] = useState("Patrons");
@@ -288,6 +289,7 @@ const Organizers = () => {
 
   return (
     <>
+      <Carousel img="bg3.jpeg" />
       <h2 className="text-center my-2 org">Our Organizers</h2>
 
       <div className="container">

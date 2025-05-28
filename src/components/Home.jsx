@@ -6,10 +6,12 @@ import {
   Heart,
   Palette,
 } from "lucide-react";
+import Carousel from "./Carousel";
 
 const Home = () => {
   return (
     <>
+      <Carousel img="bg1.png" />
       {/* Welcome ILCC 2025 */}
       <hr />
       <div style={{ textAlign: "center" }}>
@@ -110,7 +112,7 @@ const Home = () => {
               <h4>Workshop Day</h4>
               <hr className="brW" />
               <p>
-                <b>24th November 2025</b>
+                <b>30th November 2025</b>
               </p>
             </div>
           </div>
@@ -120,7 +122,7 @@ const Home = () => {
               <h4>Industry Day</h4>
               <hr className="brW" />
               <p>
-                <b>25th November 2025</b>
+                <b>1st Decemebr 2025</b>
               </p>
             </div>
           </div>
@@ -130,7 +132,7 @@ const Home = () => {
               <h4>Conference Days</h4>
               <hr className="brW" />
               <p>
-                <b>26-28th November 2025</b>
+                <b>2nd-3rd December 2025</b>
               </p>
             </div>
           </div>

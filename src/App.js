@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
-import Carousel from "./components/Carousel";
 import About from "./components/About";
 import Organizers from "./components/Organizers";
 
@@ -20,7 +19,6 @@ function App() {
     <>
       <BrowserRouter>
         <Header />
-        <Carousel />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
