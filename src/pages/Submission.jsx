@@ -1,6 +1,10 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from "react";
 import Carousel from "./Carousel";
 import { FaCalendarAlt, FaFileAlt, FaPenNib } from "react-icons/fa";
+import Poster_Sub_Temp from "./components/Poster_Sub_Temp";
+import Paper_Sub_Temp from "./components/Paper_Sub_Temp";
+import Timeline from "./components/Timeline";
 
 const Submission = () => {
   return (
@@ -60,99 +64,17 @@ const Submission = () => {
             id="timeline"
             role="tabpanel"
           >
-            <div className="table-responsive">
-              <table className="table table-bordered text-center">
-                <thead className="table-light">
-                  <tr>
-                    <th>Event</th>
-                    <th>Date</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="table-secondary">
-                    <td colSpan="2" className="fw-bold">
-                      📄 Paper
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>📝 Abstract Opening</td>
-                    <td>June 20, 2024</td>
-                  </tr>
-                  <tr>
-                    <td>🛑 Abstract Closing</td>
-                    <td>July 20, 2024 *</td>
-                  </tr>
-                  <tr>
-                    <td>📤 Full Paper Closing</td>
-                    <td>August 31, 2024 *</td>
-                  </tr>
-                  <tr>
-                    <td>🔍 Review End</td>
-                    <td>September 30, 2024</td>
-                  </tr>
-                  <tr>
-                    <td>✅ Camera-Ready Submission</td>
-                    <td>October 31, 2024</td>
-                  </tr>
-                  <tr>
-                    <td>🧾 Normal Registration End</td>
-                    <td>November 10, 2024 *</td>
-                  </tr>
-
-                  <tr className="table-secondary">
-                    <td colSpan="2" className="fw-bold">
-                      🖼️ Poster
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>📝 Poster Opening</td>
-                    <td>June 20, 2024</td>
-                  </tr>
-                  <tr>
-                    <td>🛑 Poster Closing</td>
-                    <td>July 20, 2024 *</td>
-                  </tr>
-                  <tr>
-                    <td>📤 Full Paper Submission</td>
-                    <td>August 20, 2024</td>
-                  </tr>
-                  <tr>
-                    <td>✅ Camera-Ready Submission</td>
-                    <td>October 17, 2024</td>
-                  </tr>
-                </tbody>
-              </table>
-              <p className="text-muted mt-2">
-                * May be extended by a week or two if required
-              </p>
-            </div>
+            <Timeline />
           </div>
 
           {/* Paper Submission Tab */}
           <div className="tab-pane fade" id="paper" role="tabpanel">
-            <div className="p-4 border rounded">
-              <h5>
-                <FaFileAlt className="me-2" /> Paper Submission Guidelines
-              </h5>
-              <p>
-                Templates, format, and submission instructions will be provided
-                here. Please prepare your manuscript as per the prescribed
-                format.
-              </p>
-            </div>
+            <Paper_Sub_Temp />
           </div>
 
           {/* Poster Submission Tab */}
           <div className="tab-pane fade" id="poster" role="tabpanel">
-            <div className="p-4 border rounded">
-              <h5>
-                <FaPenNib className="me-2" /> Poster Submission Guidelines
-              </h5>
-              <p>
-                Details and templates for poster submission will be shared soon.
-                Follow standard academic formatting practices.
-              </p>
-            </div>
+            <Poster_Sub_Temp />
           </div>
         </div>
       </div>
