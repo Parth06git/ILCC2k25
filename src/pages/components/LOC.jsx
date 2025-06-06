@@ -5,13 +5,13 @@ const locMembers = [
     title: "Conference Chair",
     name: "",
     description: "Indian Institute of Technology Tirupati",
-    img: require("../../image/bg1.png"),
+    img: require("../../image/committee.jpg"),
   },
   {
     title: "Other Committees",
     name: "",
     description: "Leads and Supports - Indian Institute of Technology Tirupati",
-    img: require("../../image/bg1.png"),
+    img: require("../../image/committee.jpg"),
   },
   {
     title: "Technical Committee Lead - Academia",

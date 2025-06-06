@@ -15,7 +15,7 @@ const Home = () => {
       {/* Welcome ILCC 2025 */}
       <hr />
       <div style={{ textAlign: "center" }}>
-        <Handshake size={50} />
+        <Handshake className="text-success" size={50} />
       </div>
       <div className="container ilcc">
         <div className="p-6 max-w-3xl mx-auto bg-white rounded-2xl shadow-md">
@@ -62,7 +62,7 @@ const Home = () => {
       {/* About IITT */}
       <div className="container iitt">
         <div style={{ textAlign: "center" }}>
-          <Heart />
+          <Heart size={35} className="text-danger" />
         </div>
         <h2 className="text-2xl font-bold text-center mt-2 mb-4">
           About IIT Tirupati
@@ -102,7 +102,7 @@ const Home = () => {
       {/* IMP Dates */}
       <div className="container text-center my-4 p-1">
         <h2 className="text-2xl font-bold text-center mt-2 mb-4">
-          <CalendarDays />
+          <CalendarDays className="text-primary" size={30} />
           {"   "}Important Dates <hr className="brW" />
         </h2>
         <div className="row">

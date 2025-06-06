@@ -1,5 +1,7 @@
 import React from "react";
 import Carousel from "./Carousel";
+import FeeTable from "./components/FeeTable";
+import RegistrationDetails from "./components/RegistrationDetails";
 
 const Registration = () => {
   return (
@@ -47,12 +49,12 @@ const Registration = () => {
             id="details"
             role="tabpanel"
           >
-            Parth Trivedi
+            <RegistrationDetails />
           </div>
 
           {/* Fees Tab */}
           <div className="tab-pane fade" id="fees" role="tabpanel">
-            Priyanshi Bajaj
+            <FeeTable />
           </div>
         </div>
       </div>

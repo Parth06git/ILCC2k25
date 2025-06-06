@@ -11,7 +11,7 @@ const Patrons = () => {
             style={{ width: "20rem" }}
           >
             <img
-              src={require(`../../image/bg1.png`)}
+              src={require(`../../image/KNS.jpg`)}
               className="card-img-top img-fluid"
               alt="Academic Patron"
               style={{ objectFit: "cover", height: "220px" }}
@@ -35,7 +35,7 @@ const Patrons = () => {
             style={{ width: "20rem" }}
           >
             <img
-              src={require(`../../image/bg1.png`)}
+              src={require(`../../image/AnupMathew.jpg`)}
               className="card-img-top img-fluid"
               alt="Academic Patron"
               style={{ objectFit: "cover", height: "220px" }}
