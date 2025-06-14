@@ -12,7 +12,7 @@ const Submission = () => {
       <Carousel img="bg5.jpeg" />
       <hr />
       <div className="container py-5">
-        <h1 className="text-center mb-4">Submission & Registration Timeline</h1>
+        <h1 className="text-center mb-4">Submission Guidelines</h1>
 
         <ul
           className="nav nav-tabs justify-content-center mb-4"

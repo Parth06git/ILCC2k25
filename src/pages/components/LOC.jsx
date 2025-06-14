@@ -17,13 +17,13 @@ const locMembers = [
     title: "Technical Committee Lead - Academia",
     name: "Dr. Santhosh Loganathan",
     description: "NIT Trichy",
-    img: require("../../image/bg1.png"),
+    img: require("../../image/Santosh.jpg"),
   },
   {
     title: "Technical Committee Lead - Industry",
     name: "Dr. Marimuthu K",
     description: "Technical Secretary, ILCE",
-    img: require("../../image/bg1.png"),
+    img: require("../../image/Marimuthu.jpg"),
   },
 ];
 
@@ -41,7 +41,13 @@ const LOC = () => {
           >
             <div
               className="card shadow-sm border-0 rounded-4 overflow-hidden"
-              style={{ width: "18rem" }}
+              style={{ width: "18rem", transition: "transform 0.3s" }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.transform = "scale(1.05)")
+              }
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.transform = "scale(1)")
+              }
             >
               <img
                 src={member.img}

@@ -19,12 +19,12 @@ const members = [
   {
     name: "Mr. Kalyan Vaidyanathan",
     description: "CTO - Construction, Tvasta",
-    img: require("../../image/bg1.png"),
+    img: require("../../image/Kalyan.jpg"),
   },
   {
     name: "Dr. Ganesh Devkar",
     description: "Associate Professor, CEPT University",
-    img: require("../../image/bg1.png"),
+    img: require("../../image/Ganesh.jpg"),
   },
   {
     name: "Dr. Laishram Boeing Singh",
@@ -34,7 +34,7 @@ const members = [
   {
     name: "Dr. Parul Patel",
     description: "Professor, Nirma University",
-    img: require("../../image/bg1.png"),
+    img: require("../../image/Parul.jpg"),
   },
   {
     name: "Mr. Kaezad Karanjawala",
@@ -44,7 +44,7 @@ const members = [
   {
     name: "Dr. Marimuthu K",
     description: "Technical Secretary, ILCE",
-    img: require("../../image/bg1.png"),
+    img: require("../../image/Marimuthu.jpg"),
   },
 ];
 
@@ -62,7 +62,13 @@ const NOC = () => {
           >
             <div
               className="card shadow-sm border-0 rounded-4 overflow-hidden"
-              style={{ width: "18rem" }}
+              style={{ width: "18rem", transition: "transform 0.3s" }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.transform = "scale(1.05)")
+              }
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.transform = "scale(1)")
+              }
             >
               <img
                 src={member.img}

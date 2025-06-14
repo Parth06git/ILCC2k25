@@ -10,8 +10,9 @@ const Registration = () => {
       <hr />
       <div className="container py-5">
         <h1 className="text-center mb-4">Registration</h1>
+        <h5 className="text-center text-danger">To be Updated ...</h5>
 
-        <ul
+        {/* <ul
           className="nav nav-tabs justify-content-center mb-4"
           id="registrationTabs"
           role="tablist"
@@ -40,10 +41,9 @@ const Registration = () => {
               Fees
             </button>
           </li>
-        </ul>
+        </ul> */}
 
-        <div className="tab-content" id="registrationTabsContent">
-          {/* Details Tab */}
+        {/* <div className="tab-content" id="registrationTabsContent">
           <div
             className="tab-pane fade show active"
             id="details"
@@ -52,11 +52,10 @@ const Registration = () => {
             <RegistrationDetails />
           </div>
 
-          {/* Fees Tab */}
           <div className="tab-pane fade" id="fees" role="tabpanel">
             <FeeTable />
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

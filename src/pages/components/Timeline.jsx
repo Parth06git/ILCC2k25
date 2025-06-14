@@ -11,6 +11,7 @@ const Timeline = () => {
           </tr>
         </thead>
         <tbody>
+          {/* Paper Section */}
           <tr className="table-secondary">
             <td colSpan="2" className="fw-bold">
               📄 Paper
@@ -41,6 +42,7 @@ const Timeline = () => {
             <td>November 10, 2025 *</td>
           </tr>
 
+          {/* Poster Section */}
           <tr className="table-secondary">
             <td colSpan="2" className="fw-bold">
               🖼️ Poster
@@ -48,27 +50,59 @@ const Timeline = () => {
           </tr>
           <tr>
             <td>📝 Poster Opening</td>
-            <td>TBA</td>
+            <td>June 20, 2025</td>
           </tr>
           <tr>
             <td>🛑 Poster Closing</td>
-            <td>TBA</td>
+            <td>July 30, 2025</td>
           </tr>
           <tr>
-            <td>📤 Full Paper Submission</td>
-            <td>TBA</td>
+            <td>📤 Full Poster Submission</td>
+            <td>September 15, 2025</td>
           </tr>
           <tr>
             <td>✅ Camera-Ready Submission</td>
-            <td>TBA</td>
+            <td>October 31, 2025</td>
+          </tr>
+
+          {/* Rolling Trophy Section */}
+          <tr className="table-secondary">
+            <td colSpan="2" className="fw-bold">
+              🏆 Rolling Trophy
+            </td>
+          </tr>
+          <tr>
+            <td>🔔 Notification</td>
+            <td>July 1, 2025</td>
+          </tr>
+          <tr>
+            <td>📝 Abstract Submission</td>
+            <td>July 30, 2025</td>
+          </tr>
+          <tr>
+            <td>✅ Abstract Acceptance</td>
+            <td>August 15, 2025</td>
+          </tr>
+          <tr>
+            <td>📑 Interim Report Submission</td>
+            <td>September 15, 2025</td>
+          </tr>
+          <tr>
+            <td>🔍 Interim Review Assessment</td>
+            <td>September 30, 2025</td>
+          </tr>
+          <tr>
+            <td>📄 Final Report Submission</td>
+            <td>October 31, 2025</td>
+          </tr>
+          <tr>
+            <td>🎤 Final Presentation</td>
+            <td>During Conference Days</td>
           </tr>
         </tbody>
       </table>
       <p className="text-muted mt-2">
         * May be extended by a week or two if required
-      </p>
-      <p className="text-muted mt-2">
-        TBA: To be Announced
       </p>
     </div>
   );

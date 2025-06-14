@@ -8,7 +8,7 @@ const Schedule = () => {
       <hr />
       <div className="container py-5">
         <h1 className="text-center mb-4">Schedule</h1>
-        <h5 className="text-center text-danger">To be Declared ...</h5>
+        <h5 className="text-center text-danger">To be Updated ...</h5>
       </div>
     </>
   );

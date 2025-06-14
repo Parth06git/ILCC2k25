@@ -7,8 +7,12 @@ const Patrons = () => {
       <div className="row">
         <div className="col-md-6 my-2">
           <div
-            className="card shadow-lg border-0 rounded-4 overflow-hidden"
-            style={{ width: "20rem" }}
+            className="card shadow-sm border-0 rounded-4 overflow-hidden"
+            style={{ width: "18rem", transition: "transform 0.3s" }}
+            onMouseEnter={(e) =>
+              (e.currentTarget.style.transform = "scale(1.05)")
+            }
+            onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
           >
             <img
               src={require(`../../image/KNS.jpg`)}
@@ -31,8 +35,12 @@ const Patrons = () => {
         </div>
         <div className="col-md-6 my-2">
           <div
-            className="card shadow-lg border-0 rounded-4 overflow-hidden"
-            style={{ width: "20rem" }}
+            className="card shadow-sm border-0 rounded-4 overflow-hidden"
+            style={{ width: "18rem", transition: "transform 0.3s" }}
+            onMouseEnter={(e) =>
+              (e.currentTarget.style.transform = "scale(1.05)")
+            }
+            onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
           >
             <img
               src={require(`../../image/AnupMathew.jpg`)}

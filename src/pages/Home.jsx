@@ -26,8 +26,9 @@ const Home = () => {
             <p className="text-lg text-gray-700 mb-4">
               We are delighted to welcome you to the{" "}
               <strong>Indian Lean Construction Conference (ILCC) 2025</strong>,
-              taking place from <strong>24th to 27th November 2025</strong> in
-              the vibrant city of <strong>Tirupati</strong>, India.
+              taking place from{" "}
+              <strong>30th November to 3rd December 2025</strong> in the vibrant
+              city of <strong>Tirupati</strong>, India.
             </p>
             <p className="text-lg text-gray-700 mb-4">
               ILCC 2025 continues the proud tradition of bringing together a

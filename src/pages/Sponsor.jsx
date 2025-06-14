@@ -45,36 +45,37 @@ const Sponsor = () => {
       <Carousel img="bg7.jpg" />
       <div className="container py-5">
         <h1 className="text-center mb-5">Our Sponsors</h1>
+        <h5 className="text-center text-danger">To be Updated ...</h5>
 
         {/* Gold Sponsors */}
-        <section className="mb-5">
+        {/* <section className="mb-5">
           <h2 className="text-warning text-center mb-4">Gold Sponsors</h2>
           <div className="row justify-content-center">
             {sponsors.gold.map((s, idx) => (
               <SponsorCard key={idx} tier="gold" name={s.name} img={s.img} />
             ))}
           </div>
-        </section>
+        </section> */}
 
         {/* Silver Sponsors */}
-        <section className="mb-5">
+        {/* <section className="mb-5">
           <h2 className="text-secondary text-center mb-4">Silver Sponsors</h2>
           <div className="row justify-content-center">
             {sponsors.silver.map((s, idx) => (
               <SponsorCard key={idx} tier="silver" name={s.name} img={s.img} />
             ))}
           </div>
-        </section>
+        </section> */}
 
         {/* Bronze Sponsors */}
-        <section className="mb-5">
+        {/* <section className="mb-5">
           <h2 className="text-muted text-center mb-4">Bronze Sponsors</h2>
           <div className="row justify-content-center">
             {sponsors.bronze.map((s, idx) => (
               <SponsorCard key={idx} tier="bronze" name={s.name} img={s.img} />
             ))}
           </div>
-        </section>
+        </section> */}
       </div>
     </>
   );
