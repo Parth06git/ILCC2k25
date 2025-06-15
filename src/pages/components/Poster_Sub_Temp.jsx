@@ -8,6 +8,40 @@ const Poster_Sub_Temp = () => {
         <FaFileAlt className="me-2" /> Poster Submission Guidelines
       </h5>
       <ul className="list-group list-group-flush mb-3">
+        {/* Abstract Template Overview */}
+        <li className="list-group-item bg-light mt-3">
+          📄 <strong>Abstract Template Overview:</strong>
+          <p className="mt-2 mb-2 text-muted">
+            Use the abstract template to ensure proper formatting of your poster
+            abstract submission. The template includes sections such as Title,
+            Author Information, and Abstract.
+          </p>
+          <a
+            href="/templates/Paper and poster abstract-Template-ILCC2025.docx"
+            className="btn btn-outline-secondary btn-sm"
+            download
+          >
+            <FaDownload className="me-1" /> Download Abstract Template
+          </a>
+        </li>
+
+        {/* Copyright Form */}
+        <li className="list-group-item bg-light mt-3">
+          📝 <strong>Copyright Transfer Form:</strong>
+          <p className="mt-2 mb-2 text-muted">
+            All poster presenters are required to submit a signed copyright
+            form. By submitting this form, all the authors confirm that they
+            specifically agree to the ILCC2025 Copyright policy.
+          </p>
+          <a
+            href="/templates/Paper and poster copyright-form_ILCC2025.docx"
+            className="btn btn-outline-dark btn-sm"
+            download
+          >
+            <FaDownload className="me-1" /> Download Copyright Form
+          </a>
+        </li>
+
         {/* Poster Template Overview */}
         <li className="list-group-item bg-light">
           🖼️ <strong>Poster Template Overview:</strong>
@@ -24,29 +58,11 @@ const Poster_Sub_Temp = () => {
             className="btn btn-outline-warning btn-sm"
             download
           >
-            <FaDownload className="me-1" /> Download Poster Template (.pptx)
+            <FaDownload className="me-1" /> Download Poster Template
           </a>
         </li>
 
-        <li className="list-group-item bg-light mt-3">
-          🖼️ <strong>Presentation Template Overview:</strong>
-          <p className="mt-2 mb-2 text-muted">
-            This PowerPoint file serves as the official presentation template
-            for ILCC 2025 paper presenters. It includes title slide, content
-            layout, visual guidelines, and footer designs to maintain
-            consistency during presentations. All paper presenters must use this
-            format for their final conference presentation slides.
-          </p>
-          <a
-            href="/templates/Paper-Presentation-Template-2025.pptx"
-            className="btn btn-outline-success btn-sm"
-            download
-          >
-            <FaDownload className="me-1" /> Download Presentation Template
-            (.pptx)
-          </a>
-        </li>
-
+        {/* EasyChair Registration Overview */}
         <li className="list-group-item bg-light mt-3">
           🔗 <strong>EasyChair Registration:</strong>
           <p className="mt-2 mb-2 text-muted">
@@ -69,8 +85,9 @@ const Poster_Sub_Temp = () => {
 
       {/* Additional Notes */}
       <p className="text-muted fst-italic mt-4">
-        ⚠️ Please use only the official poster template provided. Custom formats
-        or deviations may not be accepted for display during the conference.
+        ⚠️ Please use only the official poster and abstract templates provided.
+        Custom formats or deviations may not be accepted for display during the
+        conference.
       </p>
     </div>
   );

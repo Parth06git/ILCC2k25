@@ -8,6 +8,40 @@ const Paper_Sub_Temp = () => {
         <FaFileAlt className="me-2" /> Paper Submission Guidelines
       </h5>
       <ul className="list-group list-group-flush mb-3">
+        {/* Abstract Template Overview */}
+        <li className="list-group-item bg-light mt-3">
+          📄 <strong>Abstract Template Overview:</strong>
+          <p className="mt-2 mb-2 text-muted">
+            Use the abstract template to ensure proper formatting of your paper
+            abstract submission. The template includes sections such as Title,
+            Author Information, and Abstract.
+          </p>
+          <a
+            href="/templates/Paper and poster abstract-Template-ILCC2025.docx"
+            className="btn btn-outline-secondary btn-sm"
+            download
+          >
+            <FaDownload className="me-1" /> Download Abstract Template
+          </a>
+        </li>
+
+        {/* Copyright Form */}
+        <li className="list-group-item bg-light mt-3">
+          📝 <strong>Copyright Transfer Form:</strong>
+          <p className="mt-2 mb-2 text-muted">
+            All poster presenters are required to submit a signed copyright
+            form. By submitting this form, all the authors confirm that they
+            specifically agree to the ILCC2025 Copyright policy.
+          </p>
+          <a
+            href="/templates/Paper and poster copyright-form_ILCC2025.docx"
+            className="btn btn-outline-dark btn-sm"
+            download
+          >
+            <FaDownload className="me-1" /> Download Copyright Form
+          </a>
+        </li>
+
         {/* Paper Template Overview */}
         <li className="list-group-item bg-light">
           📝 <strong>Paper Template Overview:</strong>
@@ -23,7 +57,7 @@ const Paper_Sub_Temp = () => {
             className="btn btn-outline-primary btn-sm"
             download
           >
-            <FaDownload className="me-1" /> Download Paper Template (.docx)
+            <FaDownload className="me-1" /> Download Paper Template
           </a>
         </li>
 
@@ -43,7 +77,6 @@ const Paper_Sub_Temp = () => {
             download
           >
             <FaDownload className="me-1" /> Download Presentation Template
-            (.pptx)
           </a>
         </li>
 
