@@ -27,7 +27,7 @@ const Poster_Sub_Temp = () => {
 
         {/* Copyright Form */}
         <li className="list-group-item bg-light mt-3">
-          📝 <strong>Copyright Transfer Form:</strong>
+          📝 <strong>Copyright Form:</strong>
           <p className="mt-2 mb-2 text-muted">
             All poster presenters are required to submit a signed copyright
             form. By submitting this form, all the authors confirm that they
