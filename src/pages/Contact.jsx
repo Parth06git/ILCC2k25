@@ -26,7 +26,7 @@ const Contact = () => {
                 </li>
                 <li className="mb-4 d-flex">
                   <Mails className="me-3 text-success" />
-                  <span>office@iittp.ac.in</span>
+                  <span>cee_office@iittp.ac.in</span>
                 </li>
                 <li className="mb-2 d-flex">
                   <Phone className="me-3 text-danger" />
