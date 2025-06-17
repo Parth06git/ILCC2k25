@@ -31,7 +31,7 @@ const Schedule = () => {
                 <h4>Industry Day</h4>
                 <hr className="brW" />
                 <p>
-                  <b>1st Decemebr 2025</b>
+                  <b>1st December 2025</b>
                 </p>
               </div>
             </div>
