@@ -89,12 +89,8 @@ const Contact = () => {
                 <li className="mb-2 d-flex">
                   <Train size={50} className="me-3 text-danger" />
                   <span>
-                    From Srikalahasti Railways station (13 km)
+                    From Srikalahasti Railway station (13 km)
                     <ol>
-                      <li>
-                        you can take a bus towards Tirupati and get down at
-                        Yerpedu, take an auto to IIT Campus or a 10 minutes walk
-                      </li>
                       <li>you can take a cab or auto to IIT Campus directly</li>
                     </ol>
                   </span>

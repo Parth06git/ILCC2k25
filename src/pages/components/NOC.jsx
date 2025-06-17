@@ -8,11 +8,6 @@ const members = [
     img: require("../../image/Suresh.jpg"),
   },
   {
-    name: "Board of Directors",
-    description: "Institute for Lean Construction Excellence",
-    img: require("../../image/committee.jpg"),
-  },
-  {
     name: "Prof. Koshy Varghese",
     description: "Director ILCE & Professor IIT Madras",
     img: require("../../image/Koshy.jpg"),
@@ -47,6 +42,11 @@ const members = [
     name: "Dr. Marimuthu K",
     description: "Technical Secretary, ILCE",
     img: require("../../image/Marimuthu.jpg"),
+  },
+  {
+    name: "Board of Directors",
+    description: "Institute for Lean Construction Excellence",
+    img: require("../../image/committee.jpg"),
   },
 ];
 

@@ -123,7 +123,7 @@ const Home = () => {
               <h4>Industry Day</h4>
               <hr className="brW" />
               <p>
-                <b>1st Decemebr 2025</b>
+                <b>1st December 2025</b>
               </p>
             </div>
           </div>
@@ -143,7 +143,7 @@ const Home = () => {
       {/* Conference Theme */}
       <div className="container my-4 p-1">
         <h2 className="text-2xl font-bold text-center mt-2 mb-4">
-          <Palette /> Conference Theme
+          <Palette /> Conference Themes
         </h2>
 
         <div className="row">
