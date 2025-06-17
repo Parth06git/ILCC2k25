@@ -2,9 +2,10 @@ import React from "react";
 
 const members = [
   {
-    name: "Conference Chair",
-    description: "Indian Institute of Technology Tirupati",
-    img: require("../../image/committee.jpg"),
+    name: "Prof. Suresh Jain",
+    description:
+      "Professor and HoD, Dept. of Civil and Environmental Engineering, IIT Tirupati, Conference Chair",
+    img: require("../../image/Suresh.jpg"),
   },
   {
     name: "Board of Directors",
@@ -23,7 +24,7 @@ const members = [
   },
   {
     name: "Dr. Ganesh Devkar",
-    description: "Associate Professor, CEPT University",
+    description: "Sr Associate Professor, CEPT University",
     img: require("../../image/Ganesh.jpg"),
   },
   {
@@ -38,7 +39,8 @@ const members = [
   },
   {
     name: "Mr. Kaezad Karanjawala",
-    description: "Secretary General, ILCE",
+    description:
+      "Secretary General, ILCE; ; Vice President - Godrej Construction.",
     img: require("../../image/Kaezad.jpg"),
   },
   {

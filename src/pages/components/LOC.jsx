@@ -2,27 +2,33 @@ import React from "react";
 
 const locMembers = [
   {
-    title: "Conference Chair",
-    name: "",
-    description: "Indian Institute of Technology Tirupati",
-    img: require("../../image/committee.jpg"),
+    name: "Prof. Suresh Jain",
+    description:
+      "Professor and HoD, Dept. of Civil and Environmental Engineering, IIT Tirupati, Conference Chair",
+    img: require("../../image/Suresh.jpg"),
   },
   {
-    title: "Other Committees",
-    name: "",
-    description: "Leads and Supports - Indian Institute of Technology Tirupati",
-    img: require("../../image/committee.jpg"),
+    name: "Dr. Prasanna Kumar Behera",
+    description:
+      "Assistant Professor, Dept. of Civil and Environmental Engineering, IIT Tirupati, Local Organising Committee Chair",
+    img: require("../../image/Prasanna.jpg"),
   },
   {
-    title: "Technical Committee Lead - Academia",
+    name: "Dr. A. V. Rahul",
+    description:
+      "Assistant Professor, Dept. of Civil and Environmental Engineering, IIT Tirupati, Local Organising Committee Co-Chair",
+    img: require("../../image/Rahul.jpg"),
+  },
+  {
     name: "Dr. Santhosh Loganathan",
-    description: "NIT Trichy",
+    description:
+      "Assistant Professor, Dept. of Civil Engineering, NIT Trichy, Technical Committee Lead - Academia",
     img: require("../../image/Santosh.jpg"),
   },
   {
-    title: "Technical Committee Lead - Industry",
     name: "Dr. Marimuthu K",
-    description: "Technical Secretary, ILCE",
+    description:
+      "Technical Secretary, ILCE, Technical Committee Lead - Industry",
     img: require("../../image/Marimuthu.jpg"),
   },
 ];
@@ -36,7 +42,7 @@ const LOC = () => {
       <div className="row">
         {locMembers.map((member, index) => (
           <div
-            className="col-md-3 my-3 d-flex justify-content-center"
+            className="col-md-4 my-3 d-flex justify-content-center"
             key={index}
           >
             <div
@@ -52,16 +58,11 @@ const LOC = () => {
               <img
                 src={member.img}
                 className="card-img-top"
-                alt={member.name || member.title}
+                alt={member.name}
                 style={{ objectFit: "cover", height: "220px" }}
               />
               <div className="card-body text-center bg-light">
-                <h5 className="card-title fw-bold">{member.title}</h5>
-                {member.name && (
-                  <p className="card-text mb-1">
-                    <strong>{member.name}</strong>
-                  </p>
-                )}
+                <h5 className="card-title fw-bold">{member.name}</h5>
                 <p className="text-muted small">{member.description}</p>
               </div>
             </div>

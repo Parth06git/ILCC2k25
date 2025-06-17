@@ -26,12 +26,13 @@ const Carousel = (props) => {
               <div className="box">
                 <h3>Indian Lean Construction Conference - ILCC 2025</h3>
                 <p>
-                  "Lean Construction 4.0: Project Delivery for Resilient
-                  Infrastructure"
+                  "8th ILCC 2025 – Driving Transformative Change: Lean
+                  Construction for Sustainable and Digitized Project Delivery in
+                  India"
                 </p>
                 <p>
                   <b>
-                    <MapPinCheckInside /> Conference held at IIT Tirupati
+                    <MapPinCheckInside /> Conference venue: IIT Tirupati
                   </b>
                 </p>
               </div>

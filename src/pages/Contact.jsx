@@ -6,7 +6,10 @@ const Contact = () => {
   return (
     <>
       <Carousel img="bg8.png" />
-      <section className="container py-5 contact" style={{ textAlign: "justify" }}>
+      <section
+        className="container py-5 contact"
+        style={{ textAlign: "justify" }}
+      >
         <h2 className="text-center mb-5">Contact Us</h2>
         <div className="row g-4 align-items-stretch">
           {/* Contact Info */}
@@ -17,20 +20,50 @@ const Contact = () => {
                 <li className="mb-4 d-flex">
                   <MapPin className="me-3 text-primary" />
                   <span>
-                    Indian Institute of Technology Tirupati,
+                    Department of Civil and Environmental Engineering, Indian
+                    Institute of Technology Tirupati,
                     <br />
-                    Yerpedu – Venkatagiri Road, Yerpedu Post,
-                    <br />
-                    Tirupati District – 517619, Andhra Pradesh, India
+                    Yerpedu – Venkatagiri Road, Yerpedu Post, Tirupati District
+                    – 517619, Andhra Pradesh, India
                   </span>
                 </li>
                 <li className="mb-4 d-flex">
                   <Mails className="me-3 text-success" />
-                  <span>cee_office@iittp.ac.in</span>
+                  <span>ilcc2025@iittp.ac.in</span>
                 </li>
-                <li className="mb-2 d-flex">
-                  <Phone className="me-3 text-danger" />
-                  <span>+91 877 250 3000</span>
+                <li className="mb-2 d-flex align-items-center">
+                  <Phone className="me-2 text-danger" />
+                  <div>
+                    <span className="fw-semibold text-dark">
+                      +91-73050 40838
+                    </span>
+                    <br />
+                    <small className="text-muted">Dr. Marimuthu K.</small>
+                  </div>
+                </li>
+                <br />
+                <li className="mb-2 d-flex align-items-center">
+                  <Phone className="me-2 text-danger" />
+                  <div>
+                    <span className="fw-semibold text-dark">
+                      +91-77528 94779
+                    </span>
+                    <br />
+                    <small className="text-muted">
+                      Dr. Prasanna Kumar Behera
+                    </small>
+                  </div>
+                </li>
+                <br />
+                <li className="mb-2 d-flex align-items-center">
+                  <Phone className="me-2 text-danger" />
+                  <div>
+                    <span className="fw-semibold text-dark">
+                      +91-98400 68351
+                    </span>
+                    <br />
+                    <small className="text-muted">Dr. Santosh Loganathan</small>
+                  </div>
                 </li>
               </ul>
 
@@ -43,11 +76,11 @@ const Contact = () => {
                     Station (27 km)
                     <ol>
                       <li>
-                        you can take a bus towards Srikalahasti and get down at
-                        Yerpedu, take an auto to IIT Campus or a 10 minutes walk
+                        you can take a bus to Venkatagiri and get down at IIT
+                        Campus
                       </li>
                       <li>
-                        you can take a cub or auto to IIT Campus directly from
+                        you can take a cab or auto to IIT Campus directly from
                         Renigunta Railway Station{" "}
                       </li>
                     </ol>
@@ -62,7 +95,7 @@ const Contact = () => {
                         you can take a bus towards Tirupati and get down at
                         Yerpedu, take an auto to IIT Campus or a 10 minutes walk
                       </li>
-                      <li>you can take a cub or auto to IIT Campus directly</li>
+                      <li>you can take a cab or auto to IIT Campus directly</li>
                     </ol>
                   </span>
                 </li>
@@ -72,10 +105,10 @@ const Contact = () => {
                     From Tirupati Airport (14 km)
                     <ol>
                       <li>
-                        you can take a bus towards Srikalahasti and get down at
-                        Yerpedu, take an auto to IIT Campus or a 10 minutes walk
+                        you can take a bus to Venkatagiri and get down at IIT
+                        Campus
                       </li>
-                      <li>you can take a cub or auto to IIT Campus directly</li>
+                      <li>you can take a cab or auto to IIT Campus directly</li>
                     </ol>
                   </span>
                 </li>

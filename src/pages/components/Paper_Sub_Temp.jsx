@@ -107,6 +107,13 @@ const Paper_Sub_Temp = () => {
         Non-compliance with formatting instructions may result in rejection of
         your submission.
       </p>
+
+      {/* New Note: Theme Relevance */}
+      <p className="text-dark mt-3 fw-semibold">
+        📌 Note: All submitted papers must be aligned with the conference themes
+        as listed on the website. Papers outside the scope of the themes may not
+        be considered for review.
+      </p>
     </div>
   );
 };

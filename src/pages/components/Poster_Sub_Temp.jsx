@@ -89,6 +89,12 @@ const Poster_Sub_Temp = () => {
         Custom formats or deviations may not be accepted for display during the
         conference.
       </p>
+
+      <p className="text-dark mt-3 fw-semibold">
+        📌 Note: All submitted papers must be aligned with the conference themes
+        as listed on the website. Papers outside the scope of the themes may not
+        be considered for review.
+      </p>
     </div>
   );
 };

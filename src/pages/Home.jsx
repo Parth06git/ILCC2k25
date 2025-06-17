@@ -143,9 +143,7 @@ const Home = () => {
       {/* Conference Theme */}
       <div className="container my-4 p-1">
         <h2 className="text-2xl font-bold text-center mt-2 mb-4">
-          <Palette />
-          {"    "}
-          Conference Theme
+          <Palette /> Conference Theme
         </h2>
 
         <div className="row">
@@ -153,70 +151,74 @@ const Home = () => {
             <div className="themes">
               <ul>
                 <li>
-                  <CircleCheckBig /> Intergrated Project Delivery
+                  <CircleCheckBig /> Contract and Cost Management (including
+                  Integrated Project Delivery)
                   <hr />
                 </li>
                 <li>
-                  <CircleCheckBig /> Lean Procurement
+                  <CircleCheckBig /> Digital Support for Lean Construction
+                  (including BIM Integration)
                   <hr />
                 </li>
                 <li>
-                  <CircleCheckBig /> Lean Construction Economics
+                  <CircleCheckBig /> Lean Theory
                   <hr />
                 </li>
                 <li>
-                  <CircleCheckBig /> Teaching Lean Digital
-                  <hr />
-                </li>
-                <li>
-                  <CircleCheckBig /> Lean Culture and Behaviour
+                  <CircleCheckBig /> Health, Safety, and Quality
                 </li>
               </ul>
             </div>
           </div>
+
           <div className="col-md-4 thCol">
             <div className="themes">
               <ul>
+                <li>
+                  <CircleCheckBig /> Product Development, Value, and Design
+                  Management
+                  <hr />
+                </li>
+                <li>
+                  <CircleCheckBig /> Production Planning and Control (including
+                  Last Planner® System/Collaborative Planning System, constraint
+                  analysis & removal)
+                  <hr />
+                </li>
+                <li>
+                  <CircleCheckBig /> Production System Design (including Takt,
+                  Location-Based Management)
+                  <hr />
+                </li>
+                <li>
+                  <CircleCheckBig /> Learning and Teaching Lean
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="col-md-4 thCol">
+            <div className="themes">
+              <ul>
+                <li>
+                  <CircleCheckBig /> Lean People, Culture, and Change
+                  <hr />
+                </li>
+                <li>
+                  <CircleCheckBig /> Lean and Green
+                  <hr />
+                </li>
                 <li>
                   <CircleCheckBig /> Lean Supply Chain Management
                   <hr />
                 </li>
                 <li>
-                  <CircleCheckBig /> Lean Modular Construction
+                  <CircleCheckBig /> Overcoming Organisational Barriers to Lean
+                  Implementation
                   <hr />
                 </li>
                 <li>
-                  <CircleCheckBig /> Design Management for Lean Construction
-                  <hr />
-                </li>
-                <li>
-                  <CircleCheckBig /> Automation and Industy 4.0 in Lean
-                  <hr />
-                </li>
-                <li>
-                  <CircleCheckBig /> Production Planning and Control Digital
-                  Techniques
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-md-4 thCol">
-            <div className="themes">
-              <ul>
-                <li>
-                  <CircleCheckBig /> Lean for resilient infrastructure
-                  <hr />
-                </li>
-                <li>
-                  <CircleCheckBig /> Digital technologies/BIM and Lean
-                  <hr />
-                </li>
-                <li>
-                  <CircleCheckBig /> Health, Safety and Quality
-                  <hr />
-                </li>
-                <li>
-                  <CircleCheckBig /> Lean and Sustainability
+                  <CircleCheckBig /> Modular and Off-Site Construction
                 </li>
               </ul>
             </div>
