@@ -72,7 +72,7 @@ const Paper_Sub_Temp = () => {
             format for their final conference presentation slides.
           </p>
           <a
-            href="/templates/Paper-Presentation-Template-2025.pptx"
+            href="/templates/Paper Presentation Template - 2025.pptx"
             className="btn btn-outline-success btn-sm"
             download
           >

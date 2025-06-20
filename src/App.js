@@ -22,7 +22,7 @@ import "./css/contact.css";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/ilcc2025">
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
